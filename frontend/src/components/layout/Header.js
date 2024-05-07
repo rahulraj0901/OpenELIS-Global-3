@@ -104,7 +104,7 @@ function OEHeader(props) {
         <picture>
           <img
             className="logo"
-            src={`../images/openelis_logo.png`}
+            src={`../images/newlogo.png`}
             alt="logo"
           />
         </picture>
@@ -419,6 +419,7 @@ function OEHeader(props) {
                       >
                         <SelectItem text="English" value="en" />
                         <SelectItem text="French" value="fr" />
+                        <SelectItem text="Hindi" value="hi"/>
                       </Select>
                     </li>
                     <li className="userDetails">

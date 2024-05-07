@@ -36,7 +36,7 @@
   "login.msg.password": "Password",
   "login.msg.username.missing": "A username is required",
   "login.msg.password.missing": "A password is required",
-  "login.notice.message": "Notice: Access to this service is for authorized personnel only. If you do not have the expressed authorization of the administrator, you must exit now. This organization prohibits unauthorized access, disclosure, duplication, modification, diversion, destruction, loss, misuse, or theft of its information.",
+  "login.notice.message": "Notice: Access to this service is for authorized person only.Here all lab information available for patient",
   "error.invalidcredentials": "Username or Password are incorrect",
   "patient.label.modify": "Add Or Modify Patient",
   "patient.label.info": "Patient Information",
@@ -426,7 +426,6 @@
   "patient.emergency.additional.maritialstatus": "Enter Martial Status",
   "patient.emergency.additional.nationnality": "Enter Nationality",
   "patient.emergency.additional.othernationality": "Enter Other Nationality",
-
   "referral.testresult.pastnote": "Past Notes",
   "new.patient.label": "New Patient",
   "sample.select.type": "Select sample type",

@@ -55,10 +55,10 @@ function Login(props) {
         <div>
           <picture>
             <img
-              src={`images/openelis_logo_full.png`}
+              src={`images/newlogo.png`}
               alt="fullsize logo"
-              width="300"
-              height="56"
+              width="350"
+              height="100"
             />
           </picture>
         </div>

@@ -12,6 +12,7 @@ import { getFromOpenElisServer } from "./components/utils/Utils";
 import "./App.css";
 import messages_en from "./languages/en.json";
 import messages_fr from "./languages/fr.json";
+import message_hi from "./languages/hi.json";
 import config from "./config.json";
 import { SecureRoute } from "./components/security";
 import "./index.scss";
@@ -121,6 +122,9 @@ export default function App() {
     case "fr":
       i18nConfig.messages = messages_fr;
       break;
+      case "hi":
+        i18nConfig.messages=message_hi;
+        break;
     default:
       i18nConfig.messages = messages_en;
       break;
@@ -153,6 +157,9 @@ export default function App() {
       case "fr":
         i18nConfig.messages = messages_fr;
         break;
+        case "hi":
+          i18nConfig.messages=message_hi;
+          break;
       default:
         i18nConfig.messages = messages_en;
         break;
